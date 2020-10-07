@@ -301,6 +301,10 @@ u {
     padding-top: 50px;
 }
 
+.hero-img-mobile {
+    display: none;
+}
+
 .hero-img-img {
     width: 750px;
 }
@@ -355,6 +359,17 @@ u {
         margin: 0 auto;
         width: 100%;
         justify-content: center;
+    }
+    /* .hero-img-container-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    } */
+    .hero-img-mobile {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: auto;
     }
 }
 
