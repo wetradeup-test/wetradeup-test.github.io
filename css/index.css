@@ -136,10 +136,10 @@ b {
 
 @media only screen and (max-width: 700px) {
     .section-padding {
-        padding: 50px 15px;
+        padding: 50px 20px;
     }
     .section-padding-landing {
-        padding: 0 15px;
+        padding: 0 20px;
     }
 }
 
@@ -349,7 +349,10 @@ u {
         min-width: 0;
     }
     .landing-page {
-        min-height: 700px;
+        min-height: 800px;
+        height: 110vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .landing-body {
         text-align: center;
