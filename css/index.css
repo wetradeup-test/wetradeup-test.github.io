@@ -20,9 +20,16 @@ body {
     flex-direction: row-reverse;
 }
 
+.mobile-br {
+    display: none;
+}
+
 @media only screen and (max-width: 700px) {
     .desktop-br {
         display: none;
+    }
+    .mobile-br {
+        display: block;
     }
 }
 
@@ -68,7 +75,8 @@ b {
         font-size: 1.6rem;
     }
     .hero-h1 {
-        font-size: 40px;
+        font-size: 30px;
+        text-align: center;
     }
     b {
         font-size: 1.2rem;
@@ -270,6 +278,7 @@ u {
 
 .landing-body {
     min-width: 160px;
+    opacity: .8;
 }
 
 .hero-img-container {
@@ -335,8 +344,10 @@ u {
         min-width: 0;
     }
     .landing-page {
-        height: 100vh;
         min-height: 700px;
+    }
+    .landing-body {
+        text-align: center;
     }
 }
 
