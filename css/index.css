@@ -285,7 +285,7 @@ u {
 }
 
 .hero-img-img {
-    width: 800px;
+    width: 750px;
 }
 
 .check-item {
@@ -301,12 +301,6 @@ u {
 
 .check-item>img {
     margin-right: 10px;
-}
-
-@media only screen and (max-width: 1600px) {
-    .hero-img-img {
-        width: 750px;
-    }
 }
 
 @media only screen and (max-width: 1440px) {
