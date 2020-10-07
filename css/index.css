@@ -355,7 +355,7 @@ u {
         text-align: center;
     }
     .three-checks {
-        display: flex;
+        display: none;
         margin: 0 auto;
         width: 100%;
         justify-content: center;
@@ -367,7 +367,7 @@ u {
     } */
     .hero-img-mobile {
         display: block;
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: auto;
     }
