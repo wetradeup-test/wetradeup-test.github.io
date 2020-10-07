@@ -304,6 +304,8 @@ u {
     width: 750px;
 }
 
+.three-checks {}
+
 .check-item {
     display: flex;
     color: white;
