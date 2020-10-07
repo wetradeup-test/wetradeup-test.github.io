@@ -58,6 +58,9 @@ b {
     h1 {
         font-size: 1.7rem;
     }
+    .hero-h1 {
+        font-size: 40px;
+    }
     b {
         font-size: 1.2rem;
     }
