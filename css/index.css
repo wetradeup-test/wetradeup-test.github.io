@@ -96,7 +96,7 @@ b {
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
     .section-padding {
         padding: 100px 100px;
     }
@@ -297,7 +297,7 @@ u {
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1440px) {
     .hero-img-img {
         width: 650px;
     }
@@ -328,6 +328,12 @@ u {
 
 
 /* section two */
+
+.benefit-col {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 991px) {
     .benefit {
