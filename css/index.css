@@ -327,6 +327,10 @@ u {
         max-width: 300px;
         min-width: 0;
     }
+    .landing-page {
+        height: 100vh;
+        min-height: 700px;
+    }
 }
 
 
