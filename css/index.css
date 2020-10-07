@@ -247,6 +247,13 @@ u {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .nav-img-src {
+        height: 30px;
+        width: auto;
+    }
+}
+
 
 /* landing page css */
 
