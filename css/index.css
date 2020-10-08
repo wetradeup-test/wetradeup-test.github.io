@@ -455,7 +455,9 @@ PAGES CSS
 */
 
 
-/* schools */
+/* 
+schools 
+*/
 
 
 /* schools header */
@@ -477,3 +479,177 @@ PAGES CSS
 }
 
 @media only screen and (max-width: 700px) {}
+
+
+/* 
+students
+*/
+
+
+/* students header */
+
+.hero-img-students {
+    width: 600px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .hero-img-students {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero-img-students {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {}
+
+
+/* 
+
+ISA CALC
+
+*/
+
+
+/* 
+ISA Calculator
+*/
+
+.isa-calc {
+    background-color: #00308B;
+    padding: 40px 50px 50px;
+}
+
+.calc-header {
+    margin-bottom: 30px;
+}
+
+.funding-needed {
+    margin-bottom: 30px;
+}
+
+.funding-amt {
+    display: block;
+    padding: 0px 0 15px 0;
+}
+
+.slider-container {
+    padding: 0 30px;
+}
+
+.ui-widget-content {
+    background: #192CC2;
+}
+
+.ui-widget.ui-widget-content {
+    border-color: #192CC2;
+}
+
+.program {
+    margin-bottom: 50px;
+}
+
+.program-name {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 20px 30px 0;
+    padding: 5px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.terms-container {
+    margin: 0 30px;
+}
+
+
+/* .terms-button {
+    width: 100%;
+    background-color: #192CC2;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0;
+} */
+
+#animationSandbox {
+    width: 100%;
+    background-color: #192CC2;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0;
+    color: white;
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.div.ui-slider {
+    height: .8em;
+}
+
+.big-number {
+    font-size: 70pt;
+}
+
+#ex1Slider .slider-selection {
+    background: #192CC2;
+}
+
+@media only screen and (max-width: 1190px) {
+    .sectionIllustration {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .secondaryText {
+        width: 70vw;
+    }
+    .secondaryText>p {
+        width: 100%;
+    }
+    .heroImg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .mobile-only {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .heroImgMobile {
+        display: block;
+        height: auto;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .sectionIllustration {
+        width: 100%;
+    }
+    .illTop {
+        margin-bottom: 50px;
+    }
+    .w-70 {
+        display: block;
+        margin: auto;
+        width: 70vw;
+    }
+    .threeIcons {
+        margin-top: 0;
+    }
+    .rowIcon {
+        width: 600px;
+        display: block;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
