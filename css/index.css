@@ -678,10 +678,42 @@ Employer page
     width: 1200px;
 }
 
+.employer-card {
+    width: 30%;
+}
+
+.employer-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #192CC2;
+}
+
+.btn-primary {
+    color: black;
+    font-weight: 500;
+    background-color: #13D58A;
+    border: none;
+}
+
+.row-no-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 @media only screen and (max-width: 1200px) {
     .employer-portal {
         margin-left: 0;
         max-width: 80%;
+    }
+    .employer-card {
+        width: 100%;
+    }
+    .employer-cards {
+        display: block;
     }
 }
 
