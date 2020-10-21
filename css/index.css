@@ -162,6 +162,15 @@ b {
     color: black
 }
 
+.button-large:hover{
+    text-decoration: none;
+    opacity: .8;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 .green-button {
     background-color: #13D58A;
 }
