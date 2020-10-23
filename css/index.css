@@ -527,6 +527,10 @@ ISA CALC
 ISA Calculator
 */
 
+#slider-range-max{
+    background-color: darkgray;
+}
+
 .isa-calc {
     background-color: #192CC2;
     padding: 40px 50px 50px;
